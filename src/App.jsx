@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { NavBar } from "./components/NavBar";
 import { ItemListContainer } from "./components/ItemListContainer";
-
+import { ItemDetailContainer } from "./components/ItemDetailContainer";
 function App() {
   return (
     <>
@@ -11,6 +11,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer />}></Route>
+          <Route path="/category/:id" element={<ItemListContainer />}></Route>
+          <Route path="/item/:id" element={<ItemDetailContainer />}></Route>
         </Routes>
       </BrowserRouter>
     </>

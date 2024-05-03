@@ -4,20 +4,20 @@
     "id": 1,
     "category": "diseño3D",
     "detail": "dragon articulado inpreso en PLA",
-    "img": ""
+    "img": "../assets/dragon.jpg"
   },
   {
     "name": "llavero3D",
     "id": 2,
     "category": "personalizado",
     "detail": "llavero estilo gallinero inpreso en PLA",
-    "img": ""
+    "img": "../assets/llavero.jpg"
   },
   {
-    "name": "tiburon3D",
+    "name": "porta lapices 3D",
     "id": 3,
     "category": "objeto",
     "detail": "tiburon articulado inpreso en PLA",
-    "img": ""
+    "img": "../assets/portalapiz.jpg"
   }
 ]
